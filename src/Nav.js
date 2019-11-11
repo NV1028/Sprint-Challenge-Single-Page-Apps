@@ -23,6 +23,10 @@ function Nav() {
           <li>Characters</li>
         </Link>
 
+        <Link style={navStyle} to="/searchformik">
+          <li>SearchFormik</li>
+        </Link>
+
       </ul>
     </nav>
   );

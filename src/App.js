@@ -6,6 +6,7 @@ import CharacterList from "./CharacterList";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
 import SearchForm from "./SearchForm";
+import SearchFormik from "./SearchFormik";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/characters" exact component={CharacterList} />
         <Route path="/character/:id" component={ItemDetail} />
         <Route path="/search" component={SearchForm} />
+        <Route path="/searchformik" component={SearchFormik} />
         </Switch>
       </div>
     </Router>
