@@ -20,7 +20,7 @@ import React, { Component, useState, useEffect } from "react";
 import "./App.css";
 import {Link} from "react-router-dom";
 import axios from "axios";
-
+//import SearchFormik from "SearchFormik.js";
 
 
 
@@ -41,9 +41,20 @@ const [items, setItems] = useState([]);
     setItems(items.results);
   };
   return (
-  
+
+
+//     <section>
+//     <Search findChar={searchChars} />
+//     <CharacterWrapper className="character-list">
+//       {currentChars && currentChars.map(char => <CharacterCard char={char} />)}
+//     </CharacterWrapper>
+//   </section> 
+
+
+
     <div className="App">
         <h1>Characters Page</h1>
+        {/* <SearchFormik /> */}
         {items.map(item => (
 
 

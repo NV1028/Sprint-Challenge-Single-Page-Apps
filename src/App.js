@@ -16,7 +16,7 @@ function App() {
         <Switch>
         <Route path="/home" exact component={Home} />
         {/* <Route path="/about" component={About} /> */}
-        <Route path="/characters" exact component={CharacterList} />
+        <Route path="/characters" component={CharacterList} />
         <Route path="/character/:id" component={ItemDetail} />
         <Route path="/search" component={SearchForm} />
         <Route path="/searchformik" component={SearchFormik} />
@@ -39,3 +39,6 @@ const Home = () => (
 );
 
 export default App;
+
+
+
