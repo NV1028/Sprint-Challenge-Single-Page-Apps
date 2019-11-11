@@ -4,7 +4,7 @@ import Nav from "./Nav";
 // import About from "./About";
 import CharacterList from "./CharacterList";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import ItemDetail from "./ItemDetail";
+import ItemDetail from "./ItemDetail";
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Route path="/home" exact component={Home} />
         {/* <Route path="/about" component={About} /> */}
         <Route path="/characters" exact component={CharacterList} />
-        {/* <Route path="/shop/:id" component={ItemDetail}/> */}
+        <Route path="/characters/:id" component={ItemDetail}/>
       </div>
     </Router>
   );
