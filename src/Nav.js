@@ -15,9 +15,14 @@ function Nav() {
           <li>Home</li>
         </Link>
 
+        <Link style={navStyle} to="/search">
+          <li>Search</li>
+        </Link>
+
         <Link style={navStyle} to="/characters">
           <li>Characters</li>
         </Link>
+
       </ul>
     </nav>
   );

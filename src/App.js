@@ -5,7 +5,7 @@ import Nav from "./Nav";
 import CharacterList from "./CharacterList";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
-
+import SearchForm from "./SearchForm";
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
         {/* <Route path="/about" component={About} /> */}
         <Route path="/characters" exact component={CharacterList} />
         <Route path="/character/:id" component={ItemDetail} />
+        <Route path="/search" component={SearchForm} />
         </Switch>
       </div>
     </Router>
