@@ -27,7 +27,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
-> Answer:
+> Answer: Client side routing doesn't require a server request nor a page refresh thus making it quicker for the user to have a page load.
 
 ## Project Set Up
 
